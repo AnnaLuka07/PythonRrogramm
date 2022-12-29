@@ -5,9 +5,8 @@
 
 
 n = int (input('Введите натуральное число: '))
-k = ""
+d = ""
 while n > 0:
-    r = str (n % 2)
-    k += r
+    d = str (n % 2) + d
     n = int(n / 2)
-print(k)
+print(d)
